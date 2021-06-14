@@ -1,0 +1,159 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+* {
+    color: #222;
+    font-family: 'Nanum Gothic', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+
+
+body{
+    background-color: #fff;
+}
+
+
+a:link:{
+    color: #555;
+}
+a:visited:{
+    color: #555;
+}
+a:hover:{
+    color: #555;
+}
+a:active:{
+    color: #555;
+}
+
+
+img{
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none;
+
+}
+
+.flexContainer{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+
+
+
+div#outerWrap{
+    width: 100%;
+    height: 100%;
+
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+div#wrap{border: 1px solid #000;}
+header#header{border: 1px solid #000;}
+nav#gnb{border: 1px solid #000;}
+main#main{border: 1px solid #000;}
+div#contents{border: 1px solid #000;}
+footer#footer{border: 1px solid #000;}
+
+
+
+div#wrap{
+    width: 1063px;
+    margin: 0 auto;
+    background-color: #fff;
+
+}
+
+header#header{
+    width: 1060px;
+    height: 195px;
+}
+
+
+nav#gnb{
+    background-color: #c51a3a;
+    padding-left: 39px;
+
+}
+
+#gnb a{
+    padding: 14px 10px;
+   color: #fff;
+    font-size: 16px;
+
+    display: inline-block;
+
+}
+
+#gnb a:hover{
+    color: rgba(255, 255, 255, 0.32);
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.42);
+}
+
+
+
+main#main{
+
+}
+
+div#shopImg{
+    padding: 20px;
+}
+div#greetingMsg{
+ padding: 50px 44px;
+
+
+}
+
+#greetingMsg h2{
+    padding-left: 30px;
+    margin-bottom: 26px;
+}
+
+#greetingMsg p{
+    color: #d17145;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+
+
+
+
+
+div#contents{
+
+}
+
+
+
+footer#footer{
+
+}
+
+
+
